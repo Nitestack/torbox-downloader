@@ -22,5 +22,11 @@ document.getElementById("options-form").addEventListener("submit", (event) => {
     newStorage[id] = formData.get(id) ?? null;
   }
 
-  browser.storage.local.set(newStorage);
+  browser.storage.local.set(newStorage).then(() => {
+    document.getElementById("status").textContent =
+      "Successfully saved preferences!";
+    setTimeout(() => {
+      document.getElementById("status").textContent = null;
+    }, 5000);
+  });
 });

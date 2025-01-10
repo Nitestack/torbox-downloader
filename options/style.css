@@ -1,0 +1,31 @@
+body {
+  padding: 1rem;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+input {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+
+  padding: 0.25rem;
+
+  border-radius: 0.5rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+#status {
+  color: green;
+  text-align: center;
+}

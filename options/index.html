@@ -6,9 +6,8 @@
   </head>
   <body>
     <script src="script.js" defer></script>
-    <h1>Options</h1>
     <form id="options-form">
-      <label for="torboxApiKey">TorBox API Key: </label>
+      <label for="torboxApiKey">TorBox API Key* </label>
       <input
         id="torboxApiKey"
         name="torboxApiKey"
@@ -17,7 +16,7 @@
       />
       <br />
       <label for="discordGamesWebhookURL"
-        >Discord Webhook URL (Games Channel):
+        >Discord Webhook URL (Games Channel)
       </label>
       <input
         id="discordGamesWebhookURL"
@@ -27,7 +26,7 @@
       />
       <br />
       <label for="discordOthersWebhookURL"
-        >Discord Webhook URL (Others Channel):
+        >Discord Webhook URL (Others Channel)
       </label>
       <input
         id="discordOthersWebhookURL"
@@ -38,5 +37,6 @@
       <br />
       <button type="submit">Save</button>
     </form>
+    <p id="status"></p>
   </body>
 </html>
