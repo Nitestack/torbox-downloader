@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+    <h1>Options</h1>
+    <form id="options-form">
+      <label for="torboxApiKey">TorBox API Key: </label>
+      <input
+        id="torboxApiKey"
+        name="torboxApiKey"
+        type="text"
+        placeholder="API_KEY"
+      />
+      <br />
+      <label for="discordGamesWebhookURL"
+        >Discord Webhook URL (Games Channel):
+      </label>
+      <input
+        id="discordGamesWebhookURL"
+        name="discordGamesWebhookURL"
+        type="text"
+        placeholder="https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN"
+      />
+      <br />
+      <label for="discordOthersWebhookURL"
+        >Discord Webhook URL (Others Channel):
+      </label>
+      <input
+        id="discordOthersWebhookURL"
+        name="discordOthersWebhookURL"
+        type="text"
+        placeholder="https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN"
+      />
+      <br />
+      <button type="submit">Save</button>
+    </form>
+  </body>
+</html>

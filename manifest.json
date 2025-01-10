@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "TorBox Downloader",
+  "description": "Easily manage Torrent file downloads directly from your browser with this extension. Use the right-click context menu or the extension icon for seamless control and quick access.",
+  "version": "0.0.1",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "downloads@torbox.com"
+    }
+  },
+  "permissions": ["<all_urls>", "contextMenus", "notifications", "storage"],
+  "background": {
+    "scripts": ["background_script.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "64": "icons/icon.png"
+    },
+    "default_popup": "browserAction/index.html",
+    "default_title": "TorBox Downloader"
+  },
+  "options_ui": {
+    "page": "options/index.html"
+  }
+}
+
