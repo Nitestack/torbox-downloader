@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "TorBox Downloader",
   "description": "Easily manage Torrent file downloads directly from your browser with this extension. Use the right-click context menu or the extension icon for seamless control and quick access.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icons": {
     "200": "icons/icon.png"
   },
